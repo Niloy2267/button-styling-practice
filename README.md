@@ -11,7 +11,7 @@ It helped me learn and practice important CSS concepts like:
 
 ## How to view  
 You can view this project live on GitHub Pages:  
-[Live Demo](https://your-github-username.github.io/button-styling-practice/)
+[Live Demo]((https://niloy2267.github.io/button-styling-practice/))
 
 ---
 
