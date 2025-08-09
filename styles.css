@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 2px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* 1. Solid Button */
+.btn-solid {
+  background: #ff6b35;
+  color: white;
+}
+.btn-solid:hover {
+  background: #e85a28;
+}
+
+/* 2. Outline Button */
+.btn-outline {
+  background: transparent;
+  border: 2px solid #ff6b35;
+  color: #ff6b35;
+}
+.btn-outline:hover {
+  background: #ff6b35;
+    color: white;
+
+}
+
+/* 3. Shadow Button */
+.btn-shadow {
+  background: #4cafef;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.btn-shadow:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* 4. Rounded Pill Button */
+.btn-pill {
+  background: #22c55e;
+  color: white;
+  border-radius: 50px;
+}
+.btn-pill:hover {
+  background: #16a34a;
+}
+
+/* 5. Gradient Button */
+.btn-gradient {
+  background: linear-gradient(45deg, #ff6b35, #ffb347);
+  color: white;
+}
+.btn-gradient:hover {
+  background: linear-gradient(45deg, #ff5a1f, #ffa733);
+}
